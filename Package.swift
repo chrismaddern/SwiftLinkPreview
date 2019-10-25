@@ -23,5 +23,5 @@ let package = Package(
         .library(
             name: "SwiftLinkPreview",
             targets: ["SwiftLinkPreview"]),
-    ],
+    ]
 )

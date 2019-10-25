@@ -9,5 +9,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftLinkPreview"
+    name: "SwiftLinkPreview",
+    dependencies: [
+      
+    ]
 )

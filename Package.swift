@@ -12,5 +12,8 @@ let package = Package(
     name: "SwiftLinkPreview",
     dependencies: [
       
-    ]
+    ],
+    .target(
+            name: "SwiftLinkPreview"
+    )
 )

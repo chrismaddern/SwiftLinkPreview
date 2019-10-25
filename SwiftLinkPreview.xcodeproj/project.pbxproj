@@ -259,6 +259,10 @@
 		83C203DF2363796F00BE5BA2 /* SwiftLinkPreview */ = {
 			isa = PBXGroup;
 			children = (
+				98E7C30F1D3B23E1009E5F6D /* Info-watchOS.plist */,
+				98E7C30B1D3B2367009E5F6D /* Info-macOS.plist */,
+				98F76D261D3AFC9700E9B10E /* Info-tvOS.plist */,
+				98846C9B1D09AA6E00846726 /* Info.plist */,
 				98348AC11D09FC58003FA2B3 /* PreviewError.swift */,
 				98348ABC1D09B794003FA2B3 /* SwiftLinkPreview.swift */,
 				7A552DE121A460910019E8B1 /* Response.swift */,
@@ -315,7 +319,6 @@
 			isa = PBXGroup;
 			children = (
 				83C203DF2363796F00BE5BA2 /* SwiftLinkPreview */,
-				98E7C3111D3B23E7009E5F6D /* Info */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -375,17 +378,6 @@
 				988B48D11D2C39790040A4AD /* Utils */,
 			);
 			path = SwiftLinkPreviewTests;
-			sourceTree = "<group>";
-		};
-		98E7C3111D3B23E7009E5F6D /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				98E7C30F1D3B23E1009E5F6D /* Info-watchOS.plist */,
-				98E7C30B1D3B2367009E5F6D /* Info-macOS.plist */,
-				98F76D261D3AFC9700E9B10E /* Info-tvOS.plist */,
-				98846C9B1D09AA6E00846726 /* Info.plist */,
-			);
-			name = Info;
 			sourceTree = "<group>";
 		};
 		98E7C3121D3B23F5009E5F6D /* Info */ = {
@@ -983,7 +975,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Sources/SwiftLinkPreview/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1008,7 +1000,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Sources/SwiftLinkPreview/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
